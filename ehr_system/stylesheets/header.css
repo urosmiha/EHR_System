@@ -1,0 +1,125 @@
+/* html {
+    margin: 2%;
+} */
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 100px;
+}
+
+header nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(160, 238, 238);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    color: #111;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    color: #111;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    color: #111;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkseagreen; 
+    cursor: pointer;
+}
+
+header .nav-login form button {
+    background-color: darkslategray; 
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    float: left;
+    cursor: pointer;
+}
+
+.main-container {
+    padding-top: 40px;
+}
+
+.main-container h2 {
+    margin-left: 2%;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 50px;
+    color: #111;
+    text-align: left;
+}
+
+/* header .main-warapper ul {
+    margin-left: 5%;
+} */
+
+header .main-warapper ul a {
+    margin-left: 10px;
+    border: #111;
+}
