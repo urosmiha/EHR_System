@@ -48,7 +48,7 @@
                 //     // Check if the useraname is already taken
                 //     $sql = "SELCET * FROM users WHERE username='$username'";
                 //     $result = mysqli_query($conn, $sql);
-                //     $result_check = mysql_num_rows($result);    // Check if there is any result from the query
+                //     $result_check = mysqli_num_rows($result);    // Check if there is any result from the query
 
                 //     if($result_check > 0) {
                 //         header("Location: ../signup.php?signup=usertaken");
@@ -64,7 +64,7 @@
                 //             // Check if ID already exists
                 //             $sql = "SELCET * FROM users WHERE user_id='$uid'";
                 //             $result = mysqli_query($conn, $sql);
-                //             $result_check = mysql_num_rows($result);    // Check if there is any result from the query
+                //             $result_check = mysqli_num_rows($result);    // Check if there is any result from the query
                 //             // If there are results that means ID is already taken
                 //             if($result_check > 0) {
                 //                 header("Location: ../signup.php?signup=IDtaken");
