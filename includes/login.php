@@ -31,7 +31,7 @@
                 exit();
             }
             else {
-                $sql = "SELECT * FROM users WHERE hpi='8144263845012816';";
+                $sql = "SELECT * FROM users WHERE hpi='$hpi';";
                 $result = mysqli_query($conn, $sql);
                 $result_check = mysqli_num_rows($result);
                 // If hpi does not exist in database go back to main
