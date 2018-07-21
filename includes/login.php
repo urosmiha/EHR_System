@@ -56,9 +56,6 @@
                             exit();
                         }
                     }
-
-
-
                 }
 
                 // header("Location: ../main.php?login=success");

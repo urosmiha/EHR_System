@@ -58,8 +58,9 @@
   
   /*---------------------------------------------*/
   input {
-      outline: none;
-      border: none;
+      border: #c80000;
+      /* outline: none;
+      border: none; */
   }
   
   textarea {
@@ -223,7 +224,8 @@
     z-index: 1;
   }
   
-  .input100 {
+  .input100 { 
+
     font-family: Montserrat-Bold;
     font-size: 15px;
     line-height: 1.2;
